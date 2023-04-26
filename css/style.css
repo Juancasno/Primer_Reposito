@@ -1,0 +1,40 @@
+a{
+    text-align: right;
+    font: optional;
+    font-size: xx-large;
+    text-align: left;
+}
+
+a.texto3{
+text-align: right;
+
+}
+a.texto1{
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:left;
+    size: 4%;
+}
+
+div.index{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lavender,0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    width: 350px;
+    }
+    
+div.index img{
+        width: 100%;
+        height: auto;
+    } 
+    
+/*div.index:hover{
+        border: 1px solid coral;
+        transform: rotate(-3deg);
+    } 
+    
+   /* div.Pie{
+        text-align: left;
+        text-shadow: 2px 2px 5px palegoldenrod;
+        padding: 10px;
+    }
