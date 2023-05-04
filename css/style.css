@@ -1,40 +1,78 @@
-a{
-    text-align: right;
-    font: optional;
-    font-size: xx-large;
-    text-align: left;
-}
 
-a.texto3{
-text-align: right;
-
-}
-a.texto1{
-    font-size:x-large;
+.navbar{
+    padding: 2rem; 
+    background-color: blanchedalmond;
     font-family: 'Courier New', Courier, monospace;
-    text-align:left;
-    size: 4%;
+    font-size:larger;
+
 }
 
-div.index{
-    margin: 10px 20px;
-    box-shadow: 0 4px 8px 0 lavender,0 6px 20px 0 rgba(0,0,0,0.19);
-    float: left;
-    width: 350px;
-    }
-    
-div.index img{
-        width: 100%;
-        height: auto;
-    } 
-    
-/*div.index:hover{
-        border: 1px solid coral;
-        transform: rotate(-3deg);
-    } 
-    
-   /* div.Pie{
-        text-align: left;
-        text-shadow: 2px 2px 5px palegoldenrod;
-        padding: 10px;
-    }
+.navbar-collapse{
+    align-items: center;
+}
+
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.hero{
+    background-color:palegoldenrod;
+    min-height: 450px;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.hero-node{
+text-align:initial;
+
+
+
+
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.imagen1{
+text-align: left;
+
+}
+
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:larger;
+}
+
+.text1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:larger;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:larger;
+}
+
+.btn{
+font-family: 'Courier New', Courier, monospace;
+padding: 30px 30px;
+color: rgb(102, 19, 19);
+text-transform:lowercase;
+border:red;
+border-radius: 12px;
+
+
+}

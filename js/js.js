@@ -1,3 +1,3 @@
 function Hola(){
-    document.write("Lee un libro y despejará tú mente!!!")
+    document.write("Lee un libro y deja volar tu imaginación.!!!")
 }
